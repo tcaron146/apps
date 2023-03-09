@@ -1,0 +1,43 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "my first javascript project using node.js and electron",
+  "main": "main.js",
+  "scripts": {
+    "build": "electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tcaron146/calculator-app"
+  },
+  "author": "Tom Caron",
+  "license": "ISC",
+  "build": {
+    "appId": "com.example.calculator",
+    "productName": "Calculator App",
+    "win": {
+      "target": "nsis",
+      "icon": "C:\\Users\\tcaro\\OneDrive\\Code\\calculator\\calculator.ico"
+    },
+    "files": [
+      "main.js",
+      "script.js",
+      "style.css",
+      "index.html",
+      "node_modules/**/*",
+      "package-lock.json",
+      "package.json"
+    ],
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "tcaron146",
+        "repo": "calculator-app"
+      }
+    ]
+  },
+  "devDependencies": {
+    "electron": "^13.6.9",
+    "electron-builder": "^23.6.0"
+  }
+}
