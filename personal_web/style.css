@@ -6,13 +6,13 @@ html, body{
 }
 
 .wrapper{
-    border-radius: 16px;
-    color: #232323;
     flex-basis: 400px;
-    height: 100%;
+    height: 1000px;
     width: 100%;
+    overflow: scroll;
     padding: 0;
     margin: 0;
+    position: relative;
 }
 
 .head{
@@ -21,10 +21,33 @@ html, body{
     margin-left: 5px;
     margin-right: 5px;
 }
+
 .menu{
+    border-radius: 6px;
+    border-color: #fff;
     margin: 3px;
     height: 50px;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0;
+}
+
+.wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('bridgers.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+}
+
+.wrapper:hover::before {
+    opacity: 0.5;
 }
