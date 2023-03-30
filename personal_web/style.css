@@ -1,0 +1,30 @@
+html, body{
+    background-color: black;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    border-radius: 16px;
+    color: #232323;
+    flex-basis: 400px;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.menu{
+    margin: 3px;
+    height: 50px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
