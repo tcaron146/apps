@@ -36,8 +36,12 @@
     font-size: 2rem;
   }
 
-  .nav-link{
-    transition: 0.7s ease;
+  .nav-link, .nav-branding{
+    transition: 0.4s ease;
+  }
+
+  .nav-branding:hover{
+    color:darkolivegreen;
   }
 
   .nav-link:hover{
@@ -56,6 +60,7 @@
     margin: 5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    background-color: white;
   }
 
   @media(max-width:768px){
