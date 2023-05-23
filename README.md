@@ -1,1 +1,1 @@
-this is a compilation of perojects that i have made and or started.
+This is a compilation of projects that I have made and or started.
