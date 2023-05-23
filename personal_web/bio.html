@@ -4,38 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <title>Bio</title>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>Bootstrap Header</title>
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <a href="#" class = "nav-branding">Tom Caron</a>
-            <ul class = "nav-menu">
-                <li class="nav-item">
-                    <a href="index.html" class = "nav-link">Home</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Tom Caron</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="bio.html">Bio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="bio.html" class = "nav-link">Bio</a>
+                  <a class="nav-link" href="beer.html">Beer</a>
                 </li>
                 <li class="nav-item">
-                    <a href="projects.html" class = "nav-link">Projects</a>
+                  <a class="nav-link" href="photos.html">Photos</a>
                 </li>
-                <li class="nav-item">
-                    <a href="photos.html" class = "nav-link">Photos</a>
-                </li>
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+              </ul>
+              <form class="form-inline my-2 my-lg-0" action="/search" method="GET">
+                <input class="form-control mr-sm-2" type="search" name="query" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
             </div>
-        </nav>
+          </nav>
     </header>
-    <div class="content">
-        <div class="photo"></div>
+
+    <div class="container">
+        <h1>Content Goes Here</h1>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
