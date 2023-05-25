@@ -1,88 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
 
-    <title>
-      soupdejourtommy
-    </title>
-    <link rel="icon" href="title_icon.png" type="image/png">
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="C:\Users\tcaro\OneDrive\Code\personal_web\script.js"></script>
 
-  <body>
-      <nav class="navbar navbar-light" style="background-color: #003049">
-        <div class="container-fluid">
-          <a class="navbar-brand fs-3" style="color:white;" href="index.html">soup de jour tommy
-          </a>
-          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="toggler-icon top-bar"></span>
-            <span class="toggler-icon middle-bar"></span>
-            <span class="toggler-icon bottom-bar"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link d-flex justify-content-center" href="bio.html" style="color: white;">Bio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link d-flex justify-content-center" href="beer.html" style="color: white;">Beer</a>
-              </li>
+  <title>soupdejourtommy</title>
+  <link rel="icon" href="title_icon.png" type="image/png" />
+</head>
 
-          </div>
+<body>
+  <nav class="navbar navbar-light" style="background-color: #003049">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-3" style="color: white" href="index.html">soup de jour tommy</a>
+      <div class="d-flex align-items-center justify-content-end">
+        <a id="instagram-link" class ="" href="">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35" viewBox="0 0 60 60">
+            <linearGradient id="jm_nAfYbxsVmTlYr5N4x9a_43625_gr1" x1="32" x2="32" y1="6.667" y2="57.872"
+              gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+              <stop offset="0" stop-color="#1a6dff"></stop>
+              <stop offset="1" stop-color="#c822ff"></stop>
+            </linearGradient>
+            <path fill="url(#jm_nAfYbxsVmTlYr5N4x9a_43625_gr1)"
+              d="M44,57H20c-7.168,0-13-5.832-13-13V20c0-7.168,5.832-13,13-13h24c7.168,0,13,5.832,13,13v24 C57,51.168,51.168,57,44,57z M20,9C13.935,9,9,13.935,9,20v24c0,6.065,4.935,11,11,11h24c6.065,0,11-4.935,11-11V20 c0-6.065-4.935-11-11-11H20z">
+            </path>
+            <linearGradient id="jm_nAfYbxsVmTlYr5N4x9b_43625_gr2" x1="32" x2="32" y1="18.167" y2="45.679"
+              gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+              <stop offset="0" stop-color="#6dc7ff"></stop>
+              <stop offset="1" stop-color="#e6abff"></stop>
+            </linearGradient>
+            <path fill="url(#jm_nAfYbxsVmTlYr5N4x9b_43625_gr2)"
+              d="M32,45c-7.168,0-13-5.832-13-13c0-7.168,5.832-13,13-13c7.168,0,13,5.832,13,13 C45,39.168,39.168,45,32,45z M32,23c-4.962,0-9,4.038-9,9c0,4.963,4.038,9,9,9c4.963,0,9-4.037,9-9C41,27.038,36.963,23,32,23z">
+            </path>
+            <linearGradient id="jm_nAfYbxsVmTlYr5N4x9c_43625_gr3" x1="46" x2="46" y1="12.75" y2="23.049"
+              gradientUnits="userSpaceOnUse" spreadMethod="reflect">
+              <stop offset="0" stop-color="#6dc7ff"></stop>
+              <stop offset="1" stop-color="#e6abff"></stop>
+            </linearGradient>
+            <path fill="url(#jm_nAfYbxsVmTlYr5N4x9c_43625_gr3)" d="M46 15A3 3 0 1 0 46 21A3 3 0 1 0 46 15Z"></path>
+          </svg>
+        </a>
+
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link d-flex justify-content-center" href="bio.html" style="color: white">Bio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-flex justify-content-center" href="beer.html" style="color: white">Beer</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-      crossorigin="anonymous"></script>
+      </div>
+    </div>
+  </nav>
 
-<div class="jumbotron">
-  <div class="bg-image p-5 text-center shadow-1-strong mb-5 text-white" style="background-image: url(bridgers.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;">
-    <div class="container">
-      <h1 class="mb-3 h2">welcome to soup de jour tommy</h1>
-      <div class="image">
-        <p class="text d-flex justify-content-around">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus praesentium labore accusamus sequi, voluptate debitis tenetur in deleniti possimus modi voluptatum neque maiores dolorem unde? Aut dolorum quod excepturi fugit.
-        </p>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+
+  <div class="jumbotron">
+    <div class="bg-image p-5 text-center shadow-1-strong mb-5 text-white" style="
+          background-image: url(bridgers.jpg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        ">
+      <div class="container">
+        <h1 class="mb-3 h2">welcome to soup de jour tommy</h1>
+        <div class="image">
+          <p class="text d-flex justify-content-around">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Repellendus praesentium labore accusamus sequi, voluptate debitis
+            tenetur in deleniti possimus modi voluptatum neque maiores dolorem
+            unde? Aut dolorum quod excepturi fugit.
+          </p>
+        </div>
       </div>
     </div>
   </div>
-</div>
-
-<div class="card-container d-flex justify-content-around">
-  <div class="card" style="width: 16rem;">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Bière du jour</h5>
-      <p class="card-text">Here you can check out our Yelp and some more reviews.</p>
-      <a href="beer.html" class="btn d-block" style="background-color: #F77F00;">Yelp</a>
-    </div>
-  </div>
-  <div class="card" style="width: 16rem;">
-    <img src="path/to/your/image.jpg" class="card-img-top" alt="Card Image">
-    <div class="card-body d-flex flex-column">
-      <h5 class="card-title">About</h5>
-      <p class="card-text">Here you can check out our Instagram and some of our collaborations.</p>
-      <div class="mt-auto">
-        <a href="bio.html" class="btn d-block" style="background-color: #F77F00;">Instagram</a>
+  <div class="modal fade" id="emailModal" tabindex="-1" role="dialog" aria-labelledby="emailModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="emailModalLabel">Subscribe to our Newsletter</h5>
+        </div>
+        <div class="modal-body">
+          <form id="subscribeForm" method="POST" action="/subscribe">
+            <div class="form-group">
+              <label for="emailInput">Email address</label>
+              <input type="email" class="form-control" id="emailInput" name="email" placeholder="Enter your email" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
       </div>
     </div>
   </div>
-  <div class="card" style="width: 16rem;">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Reviews</h5>
-      <p class="card-text">Check out some reviews and reviews from around the states.</p>
-      <a href="reviews.html" class="btn d-block" style="background-color: #F77F00;">About</a>
-    </div>
-  </div>
+  
 </div>
+</body>
 
-  </body>
 </html>
