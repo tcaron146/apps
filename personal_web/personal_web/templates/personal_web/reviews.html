@@ -36,6 +36,13 @@
     <div class="container">
         <h1>Content Goes Here</h1>
     </div>
+
+    <form action='/personal_web/reviews' method='POST'>
+      {% csrf_token %}
+      <input type='text' name='title' id='title' placeholder='email'>
+      <input type='text' name='year' id='year' placeholder='address'>
+      <input type='submit' value='Add'>
+    </form>
 </body>
 </html>
 

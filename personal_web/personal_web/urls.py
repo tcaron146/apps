@@ -21,5 +21,7 @@ from personal_web import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home),
-    path('personal_web/', views.personal_web)
+    path('personal_web/', views.personal_web_view),
+    path('personal_web/<int:id>', views.detail),
+    path('personal_web/reviews', views.add)
 ]
